@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8080;
 // app.get('/api/payment-key', (req, res) => {
 //     res.json({ key: process.env.PAYMENT_GATEWAY_KEY });
 // });
-
+//api for post payment details 
 app.use(express.static('public'));
 app.use(bodyParser.json());
 
