@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const quantity = parseInt(product.querySelector('.quantity').value, 10);
             totalAmount += price * quantity;
         });
+      //  console.log(totalAmount);
         totalAmountSpan.innerText = totalAmount;
     };
 
