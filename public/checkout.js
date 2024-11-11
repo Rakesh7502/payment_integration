@@ -78,5 +78,8 @@ document.getElementById('pay-button').onclick = function(e) {
     var rzp1 = new Razorpay(options);
     rzp1.open();
     e.preventDefault();
+   // var rzp1 = new Razorpay(options);
+  //  rzp1.open();
+   // e.preventDefault();
 }
 });
